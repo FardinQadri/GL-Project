@@ -20,7 +20,7 @@ This repository contains a solution for training and deploying a classification 
 -  Push Docker images to Docker Hub according to company guidelines.
 
 ## Project Structure
-- `model.py`: Contains code for training and saving the model.
+- `main.py`: Contains code for training and saving the model.
 - `app.py`: Loads the model and sets up a Flask server with documentation.
 - `.github/workflows/`: main.yml
 
@@ -38,7 +38,7 @@ To access the model via Flask API:
 ## Getting Started
 1. Clone this repository
 2. Install necessary dependencies: `pip install -r requirements.txt`
-3. Train the model using `model.py`.
+3. Train the model using `main.py`.
 4. Set up the Flask server using `app.py`.
 5. Test functionality locally.
 6. Push changes to GitHub repository.
